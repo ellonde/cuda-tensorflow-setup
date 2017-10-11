@@ -5,8 +5,8 @@
 #fi
 
 
-sudo apt-get -y update
-sudo apt-get -y install build-essential
+#sudo apt-get -y update
+#sudo apt-get -y install build-essential
 
 if [ "$1$" == "-g" ]; then #if google cloud setup
 	# Check for CUDA and try to install.
