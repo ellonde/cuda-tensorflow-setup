@@ -8,7 +8,7 @@
 sudo apt-get -y update
 sudo apt-get -y install build-essential
 
-if [ "$1$ == "-g" ]; then #if google cloud setup
+if [ "$1$" == "-g" ]; then #if google cloud setup
 	# Check for CUDA and try to install.
 	if [ ! dpkg-query -W cuda-8-0 ]; then
 		# The 16.04 installer works with 16.10.
