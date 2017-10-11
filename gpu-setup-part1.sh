@@ -8,3 +8,7 @@ if ! dpkg-query -W cuda-8-0; then
   apt-get update
   apt-get install cuda-8-0 -y
 fi
+
+echo "Setup requires a reboot to continue."
+echo "The VM will reboot now. Login after it restarts and continue installation from part2."
+sudo reboot
