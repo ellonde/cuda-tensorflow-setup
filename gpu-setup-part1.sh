@@ -3,6 +3,9 @@
 #	echo "Please run as root (with sudo)"
 #	exit
 #fi
+sudo apt-get -y update
+sudo get install -y gcc
+
 SETUP_DIR="$(pwd)/gpu-setup"
 mkdir -p $SETUP_DIR
 cd $SETUP_DIR
