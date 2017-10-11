@@ -60,6 +60,6 @@ if [ "$1" == "-s" ]; then
 sudo pip install /tmp/tensorflow_pkg/tensorflow-1.3.0-py2-none-any.whl
 else
 	echo "Building Tensorflow from binaries"
-	export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-#cp27-none-linux_x86_64.whl
+	export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-cp27-none-linux_x86_64.whl
 	sudo pip install --upgrade $TF_BINARY_URL
 fi
